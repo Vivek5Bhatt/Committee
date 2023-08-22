@@ -1,0 +1,16 @@
+@import "variable";
+@import "color";
+
+.logobar {
+  padding: 10px 0px 10px 30px;
+  display: flex;
+  align-items: center;
+  height: 86px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1199px) {
+  .logobar {
+    padding: 10px 15px 10px 15px;
+  }
+}

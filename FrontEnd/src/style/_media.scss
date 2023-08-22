@@ -1,0 +1,820 @@
+@media only screen and (min-width: 576px) {
+  .modal-sm {
+    max-width: 390px !important;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  // side menu css
+
+  .sidebar_small {
+    .leftsidebar {
+      width: 96px;
+      transition: all 300ms ease-in-out;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+    }
+
+    .centerpage {
+      margin-left: 96px;
+      transition: all 300ms ease-in-out;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+    }
+
+    .sidebar_box {
+      border-radius: 0 20px 20px 0;
+    }
+
+    .side_logobar {
+      padding: 10px 15px 10px 15px;
+      text-align: center;
+      justify-content: center;
+
+      a {
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        // background: rgb(255, 255, 255, 0.14);
+        border-radius: 10px;
+        border: 1px solid #9a3cf0;
+      }
+    }
+
+    .side_menu {
+      .nav-item {
+        a,
+        .cstm_btn_link {
+          font-size: 12px;
+          padding: 12px 8px 12px 6px;
+          border-left: 2px solid transparent;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .text_menu {
+            padding-left: 0px;
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+          }
+
+          .icon_bx {
+            margin-bottom: 4px;
+            line-height: 1.2;
+          }
+        }
+
+        .active {
+          border-left: 2px solid var(--white);
+        }
+      }
+    }
+  }
+
+  // side menu css end
+}
+
+@media only screen and (min-width: 1599px) {
+  .full_box-xxl {
+    max-width: 96%;
+  }
+}
+
+@media only screen and (max-width: 1340px) {
+  .filter_left_two {
+    min-width: 130px !important;
+    max-width: 150px !important;
+  }
+
+  .managecom_list .list_title .search_bartop {
+    max-width: 160px;
+  }
+
+  .fillter_mainupper .filter_left_one {
+    min-width: 150px;
+  }
+  .fillter_log_main.fillter_mainupper .filter_left_one {
+    margin-right: 10px;
+  }
+  .fillter_log_main .filter_left_two {
+    max-width: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 1299px) {
+  .account_card .account_body .card_num {
+    font-size: 24px;
+  }
+
+  .account_card .account_footer .account_holder .account-ifsc {
+    font-size: 16px;
+  }
+
+  .account_card .account_footer .account_holder .account-cstm {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .leftsidebar {
+    width: 200px;
+  }
+
+  .centerpage {
+    margin-left: 200px;
+  }
+
+  .side_logobar img {
+    max-width: 140px;
+  }
+
+  .side_menu .nav-item a,
+  .side_menu .nav-item .cstm_btn_link {
+    padding: 16px 15px 16px 15px;
+  }
+
+  .cstm_header {
+    padding: 15px 20px 15px 20px !important;
+  }
+
+  .cstm_header .fs-28 {
+    font-size: 22px;
+  }
+
+  .search_bartop {
+    max-width: 240px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  // side menu css
+
+  .sidebar_full {
+    .leftsidebar {
+      width: 96px;
+      transition: all 300ms ease-in-out;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+    }
+
+    .centerpage {
+      margin-left: 96px;
+      transition: all 300ms ease-in-out;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+    }
+
+    .sidebar_box {
+      border-radius: 0 20px 20px 0;
+    }
+
+    .side_logobar {
+      padding: 10px 15px 10px 15px;
+      text-align: center;
+      justify-content: center;
+
+      a {
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #9a3cf0;
+      }
+    }
+
+    .side_menu {
+      .nav-item {
+        a,
+        .cstm_btn_link {
+          font-size: 12px;
+          padding: 12px 8px 12px 6px;
+          border-left: 2px solid transparent;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .text_menu {
+            padding-left: 0px;
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+          }
+
+          .icon_bx {
+            margin-bottom: 4px;
+            line-height: 1.2;
+          }
+        }
+
+        .active {
+          border-left: 2px solid var(--white);
+        }
+      }
+    }
+  }
+
+  .sidebar_small {
+    .logo1 {
+      display: none;
+    }
+
+    .logo2 {
+      display: block;
+    }
+  }
+
+  .sidebar_full {
+    .logo2 {
+      display: none;
+    }
+
+    .logo1 {
+      display: block;
+    }
+  }
+
+  .btn_right_toggle {
+    transform: rotate(0deg);
+  }
+
+  .btn_left_toggle {
+    transform: rotate(180deg);
+  }
+
+  .sidebar_small {
+    .centerpage {
+      margin-left: 90px;
+    }
+
+    .overlay_bg {
+      display: block;
+    }
+  }
+
+  .dashboard_maincontain_bx {
+    .cstm_rowbox {
+      --bs-gutter-x: 0.8rem;
+    }
+  }
+
+  // side menu css end
+}
+
+@media only screen and (max-width: 991px) {
+  .sidebar_full .leftsidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar_full .centerpage {
+    margin-left: 0px;
+  }
+
+  .cstm_header {
+    padding: 10px 15px 10px 15px !important;
+  }
+
+  .btn_collapse_sidebar {
+    right: -45px;
+    top: 20px;
+  }
+
+  .sidebar_full .cstm_header .titlebar {
+    padding-left: 40px;
+  }
+
+  .sidebar_small .btn_collapse_sidebar {
+    right: -12px;
+  }
+
+  .leftsidebar {
+    width: 250px;
+  }
+
+  .cstm_header .fs-28 {
+    font-size: 18px;
+  }
+
+  .searchbar_main .cstm-searchbar {
+    height: 40px;
+  }
+
+  .main_headerbx .cstm_header {
+    min-height: 70px;
+  }
+
+  .sidebar_small .centerpage {
+    margin-left: 0px;
+  }
+
+  .overflow_hiddenbx {
+    overflow: hidden;
+  }
+
+  .sidebar_box:before,
+  .sidebar_box:after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .manage_commit_mainbx .cstm_rightbox_topbar {
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+  .manage_commit_mainbx .cstm_rightbox_topbar .form_cstm select {
+    max-width: 100%;
+  }
+  .manage_commit_mainbx .filter_left_one {
+    max-width: 50%;
+    width: 100%;
+  }
+  .manage_commit_mainbx .filter_left_two {
+    max-width: 25% !important;
+  }
+  .manage_commit_mainbx .searchbx_manage_right {
+    width: 100%;
+  }
+  .manage_commit_mainbx .searchbx_manage_right .search_bartop {
+    flex: 1;
+    max-width: initial;
+  }
+  .manage_commit_mainbx .filter_left_two:last-child {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .formstack {
+    flex-wrap: wrap;
+  }
+
+  .form_botm_btn {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  .formstack .fs-28 {
+    font-size: 24px;
+  }
+
+  .searchbar_main .cstm-searchbar {
+    height: 35px;
+  }
+
+  .main_headerbx .cstm_header {
+    flex-wrap: wrap;
+  }
+
+  // .cstm_header .titlebar {
+  //   order: 3;
+  //   flex: 0 0 100%;
+  //   max-width: 100%;
+  // }
+
+  // .sidebar_full .cstm_header .titlebar {
+  //   padding-left: 0px;
+  //   padding-top: 6px;
+  // }
+
+  .main_headerbx .search_bartop {
+    margin: 0px !important;
+    margin-left: 40px !important;
+    padding-right: 12px;
+    flex: 1;
+  }
+
+  .main_headerbx .header_manubar {
+    margin-left: auto;
+  }
+
+  // .btn_collapse_sidebar {
+  //   top: 13px;
+  // }
+
+  .drop_notifaction {
+    margin: 0 12px;
+  }
+
+  .drop_notifaction .notific-bar img {
+    width: 15px;
+  }
+
+  .main_headerbx .searchbar_main .search_icon {
+    left: 10px;
+  }
+
+  .main_headerbx .searchbar_main .cstm-searchbar {
+    padding-left: 34px;
+  }
+
+  .main_headerbx .searchbar_main img {
+    width: 14px;
+  }
+
+  .title_md h3 {
+    font-size: 18px;
+  }
+
+  .committe_list .list_title {
+    flex-wrap: wrap;
+    gap: 4px 0;
+  }
+
+  .cstm_table table tr th:first-child,
+  .cstm_table table tr td:first-child {
+    padding-left: 8px;
+  }
+
+  .cstm_table table th {
+    white-space: nowrap;
+  }
+
+  .cstm_table table td {
+    height: 45px;
+  }
+
+  .cstmcard .card-body {
+    padding: 20px 15px;
+  }
+
+  .dashbaord_inner_pagebx .gap_20px {
+    gap: 15px 0;
+  }
+
+  .sm_form_box {
+    max-width: 100%;
+    padding: 20px 0;
+  }
+
+  .form_md .form-control {
+    min-height: 40px;
+  }
+
+  .sm_form_box .pt-30 {
+    padding-top: 20px;
+  }
+
+  .cstm_table table td {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .card_detailbxx {
+    padding: 20px 0 20px 0;
+  }
+
+  .edit_btn_round {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .account_card {
+    padding: 15px 15px;
+    min-height: 150px;
+  }
+
+  .account_card .account_body .card_num {
+    font-size: 18px;
+  }
+
+  .account_card .account_header .bank_name {
+    font-size: 14px;
+  }
+
+  .account_card .account_footer .account_holder .account-cstm {
+    font-size: 14px;
+  }
+
+  .account_card .account_footer .account_holder .account-ifsc {
+    font-size: 14px;
+  }
+
+  .account_holder {
+    padding-bottom: 10px;
+  }
+
+  .account_card .account_body {
+    padding: 10px 0;
+  }
+
+  .other_notification {
+    padding: 20px 10px;
+  }
+
+  .inner-notif .pe-15 {
+    padding-right: 0px;
+  }
+
+  .manage_notif_card .notification_body h4 {
+    padding-bottom: 4px;
+  }
+
+  .manage_notif_card {
+    padding-bottom: 15px;
+  }
+
+  .feedback_cardinner_bx .avtarbx {
+    max-width: 45px;
+  }
+
+  .feedback_cardinner_bx .avtarbx img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .md_form_box {
+    max-width: 100%;
+  }
+
+  .rightcard_listview {
+    max-width: 100%;
+  }
+
+  .rightcard_listview .view_detail_box .user_label {
+    font-size: 16px;
+  }
+
+  .other_notification .notif_bodybx {
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-y: auto;
+    max-height: 400px;
+  }
+
+  .other_notification .manage_notificbx {
+    padding: 0 5px;
+  }
+
+  .manage-notification .manage_notif_outer {
+    overflow-y: visible;
+    max-height: initial;
+  }
+
+  .other_notification {
+    padding: 20px 5px;
+  }
+  .cstmcard .card-body {
+    padding: 20px 10px;
+  }
+  .manageuser_main_box .cstm_rightbox_topbar .form_cstm {
+    padding-right: 0px;
+  }
+  .manageuser_main_box .search_bartop {
+    max-width: initial !important;
+    flex: 1;
+    min-width: 180px;
+  }
+  .manageuser_main_box .search_bartop .search_outer {
+    width: 100%;
+  }
+  .rightcard_listview {
+    margin-top: 20px;
+  }
+
+  .manage_commit_mainbx .filter_left_one {
+    max-width: 40%;
+  }
+  .manage_commit_mainbx .filter_left_two {
+    max-width: 30% !important;
+  }
+  .pagination_arrow .page-item .page-link {
+    width: 36px;
+    height: 36px;
+  }
+  .pagination_count .page-item .page-link {
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+  }
+  .pagination_mainbx .pagination_count {
+    min-width: 32px;
+    min-height: 32px;
+  }
+  .pagination_arrow .page-item .page-link {
+    width: 34px;
+    height: 34px;
+  }
+  .pagination_arrow .page-item .page-link img {
+    width: 6px;
+  }
+  .cstm_notif-detail .feedback_cardinner_bx .avtarbx img {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .drop_notifaction .dropdown-menu {
+    min-width: 260px;
+    right: -45px !important;
+  }
+
+  .drop_notifaction .cstm_tabs .nav-item .nav-link {
+    font-size: 12px;
+    padding: 8px 4px;
+  }
+
+  .drop_notifaction .notification_card .notification_profile {
+    max-width: 35px;
+  }
+
+  .drop_notifaction .notification_card .notification_profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+  }
+
+  .notification_avtar img {
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+  }
+
+  .drop_profilr {
+    max-width: 30px;
+  }
+
+  .cstm_modal .modal-content {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 15px;
+  }
+
+  .managecom_list .topbar-selectbx {
+    max-width: 100%;
+  }
+
+  .payment_manage .left_dropbox_main {
+    width: 100%;
+  }
+
+  .payment_manage .right_sort .form_cstm {
+    width: 100%;
+  }
+
+  .payment_manage .right_sort.left_dropbox_main .form-select {
+    flex: 1;
+    max-width: initial;
+  }
+
+  .payment_manage .btnlist_group {
+    width: 100%;
+  }
+
+  .notification_card .notification_profile {
+    max-width: 35px;
+  }
+
+  .notification_card .notification_contentbx {
+    padding: 0 5px 0 5px;
+  }
+
+  .notification_time_detail {
+    font-size: 9px;
+  }
+
+  .notification_card .notification_time {
+    max-width: 50px;
+  }
+
+  .drop_notifaction {
+    margin: 0 8px;
+  }
+
+  .add-member-modal .modal-body,
+  .add-member-modal .modal-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cstm_modal.add-member-modal .modal-content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .cstm_rightbox_topbar {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .cstm_rightbox_topbar .form_cstm select {
+    max-width: 100%;
+  }
+  .manage_commit_mainbx .filter_left_one {
+    max-width: 100%;
+  }
+  .manage_commit_mainbx .filter_left_two {
+    max-width: 50% !important;
+  }
+  .manage_commit_mainbx .filter_left_one .form_cstm {
+    padding-right: 0px;
+  }
+  .view_table_cstmbx .notification_cardbx .notification_profile {
+    flex: 0 0 35px;
+    max-width: 35px;
+  }
+  .view_profile .profile_detail_list,
+  .view_profile .profile_label {
+    font-size: 13px;
+  }
+  .sm_profile_cardbox .cstm_formbx {
+    padding: 20px 10px;
+  }
+  .sm_profile_cardbox .profile_image {
+    padding-top: 10px;
+  }
+  .profile_image.pb-30 {
+    padding-bottom: 10px;
+  }
+
+  .fillter_log_main.fillter_mainupper .filter_left_one {
+    margin-right: 10px;
+    flex: 1;
+  }
+  .fillter_log_main .filter_left_two {
+    max-width: initial !important;
+    flex: 1;
+    margin-right: 0px !important;
+  }
+  .payment_manage .right_sort.left_dropbox_main .react-datepicker-wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .view_detail_box .box1 {
+    width: 120px;
+  }
+
+  .view_detail_box .box2 {
+    width: calc(100% - 120px);
+    flex: 1;
+  }
+  .manage_commit_mainbx .searchbx_manage_right .search_bartop {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .manage_payment_mainbx .search_bartop {
+    max-width: 50% !important;
+  }
+
+  .fillter_log_main.fillter_mainupper .filter_left_one {
+    margin-right: 0px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .fillter_log_main .filter_left_two {
+    max-width: 100% !important;
+    flex: 0 0 100%;
+    margin-right: 0px !important;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .main_headerbx .search_bartop {
+    margin-left: 35px !important;
+    padding-right: 10px;
+  }
+
+  .searchbar_main .cstm-searchbar {
+    font-size: 14px;
+  }
+
+  .managecom_list .btnlist_group .listing_groupbx {
+    gap: 10px 8px;
+  }
+
+  .managecom_list .btnlist_group .btn-sm {
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+  }
+
+  .view_detail_box {
+    .user_label {
+      font-size: 13px;
+    }
+
+    .user_detail_list {
+      font-size: 13px;
+    }
+  }
+  .manage_commit_mainbx .filter_left_two {
+    max-width: 100% !important;
+    padding-right: 0px;
+  }
+  .manage_payment_mainbx .left_dropbox_main {
+    flex: 0 0 auto;
+  }
+  .manage_payment_mainbx .search_bartop {
+    max-width: 100% !important;
+  }
+  .manage_payment_mainbx .search_outer {
+    width: 100%;
+  }
+}
